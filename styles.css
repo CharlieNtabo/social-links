@@ -34,17 +34,23 @@ ul {
   list-style: none;
 }
 
-li {
-    width: 350px;
-    margin: 15px auto;
-    padding: 12px;
-    background-color: rgb(41, 41, 61);
-    border-radius: 12px;
-}
-
 a {
+  width: 350px;
+  margin: 5px auto;
+  padding: 12px;
+  background-color: rgb(41, 41, 61);
+  border-radius: 12px;
   text-decoration: none;
   color: white;
-  font-weight: 250;
+  font-weight: bold;
   display: inline-block;
+}
+
+a:hover {
+  color: black;
+  background-color: rgb(172, 230, 0);
+  width: 350px;
+  padding: 12px;
+  border-radius: 12px;
+  
 }
